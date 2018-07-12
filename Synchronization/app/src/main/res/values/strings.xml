@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Synchronization App</string>
+
+
+    <string name="create_title">Create</string>
+    <string name="unsynch_title">UnSynchronized</string>
+    <string name="synch_title">Synchronized</string>
+    <string name="createRecord_Button_string">Create New Record</string>
+    <string name="title_activity_create_record">CreateRecord</string>
+    <string name="title_activity_create_new_record">Create New Record</string>
+    <string name="createRecordTitle_TextView_string">Insert Information bellow</string>
+    <string name="FirstName_string">First Name:</string>
+    <string name="enterName_hint">Enter you first name</string>
+    <string name="LastName_string">Last Name:</string>
+    <string name="LastName_hint">Enter your last name</string>
+    <string name="sex_string">Sex:</string>
+    <string name="male_checkBox">Male</string>
+    <string name="female_checkbox">Female</string>
+    <string name="age_string">Age:</string>
+    <string name="age_hint">Enter your age</string>
+    <string name="comment_string">Comment:</string>
+    <string name="comment_hint">Enter users comment</string>
+    <string name="save_record">Save</string>
+    <string name="synchAll_Button_string">Synch All Record</string>
+    <string name="singleSynch_Button_string">Synchronize</string>
+    <string name="emptyUnSynch_TextView_string">There is no Un-Synchronized data left</string>
+    <string name="synchronize_Button_string">Synchronize-Records</string>
+    <string name="synchronization_title">Synchronize Data</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resendAll_Button_String">Resend All</string>
+    <string name="deleteAll_Button_String">Delete All</string>
+    <string name="resendIndividual_Button_String">Resend</string>
+    <string name="deleteIndividual_Button_String">Delete</string>
+    <string name="synchActivity_title_string">Synch Your Data</string>
+</resources>

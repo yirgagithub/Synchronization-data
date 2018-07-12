@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="100dp"
+    android:background="?attr/selectableItemBackground">
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:weightSum="1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        >
+    <TextView
+        android:id="@+id/list_titleTextView_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:layout_weight="0.5"
+        android:textAlignment="center"
+        />
+
+        <TextView
+            android:id="@+id/list_subTitle_id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+       <Button
+           android:id="@+id/synchIndividual_Button_id"
+           android:layout_width="0dp"
+           android:layout_weight="0.4"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:background="@drawable/roundbuttontwo"
+           android:text="@string/singleSynch_Button_string" />
+   </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
